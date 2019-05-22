@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet/less" href="css/style.less">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="container">
+        <div class="page-header__menu">
+            <a class="menu__button">
+                <img src="img/logo.png" alt="" class="page-header__logo">
+            </a>
+            <nav class="page-header__navigation">
+                <ul class="page-header__list-menu">
+                    <li class="page-header__list-menu--item">
+                        <a>
+                            Главная
+                        </a>
+                    </li>
+                    <li class="page-header__list-menu--item">
+                        <a href="video.html">
+                            Видео
+                        </a>
+                    </li>
+                    <li class="page-header__list-menu--item">
+                        <a href="about.html">
+                            О нас
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="page-main">
+    <div class="container">
+        <h2 class="page-main__title">Топ смешных видео.</h2>
+        <div class="slider-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1/7</div>
+                <video width="100%" controls>
+                    <source src="video/FlexAir.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">FlexAir</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2/7</div>
+                <video width="100%" controls>
+                    <source src="video/videoplayback.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">Ultra Instinct Ricardo</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3/7</div>
+                <video width="100%" controls>
+                    <source src="video/РИКАРДО%20МИЛОС%20ФЛЕКСИТ%20ПОД%20КЛАССИКУ.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">РИКАРДО МИЛОС ФЛЕКСИТ ПОД КЛАССИКУ</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4/7</div>
+                <video width="100%" controls>
+                    <source src="video/РИКАРДО%20МИЛОС%20ФЛЕКСИТ%20НА%20ВИШНЕВОЙ%20СЕМЕРКЕ,%20НЕ%20ЗАБЫВАЯ%20ПРО%20ПОДВИГИ%20ДЕДА.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">РИКАРДО МИЛОС ФЛЕКСИТ НА ВИШНЕВОЙ СЕМЕРКЕ, НЕ ЗАБЫВАЯ ПРО ПОДВИГИ ДЕДА</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5/7</div>
+                <video width="100%" controls>
+                    <source src="video/system%20flex.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">System Flex</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6/7</div>
+                <video width="100%" height="550px" controls>
+                    <source src="video/anime.webm%20KanColle,%20Ricardo%20Milos.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">anime.webm KanColle, Ricardo Milos</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7/7</div>
+                <video width="100%" controls>
+                    <source src="video/anime.webm%20Ricardo%20Milos.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="slide-text">anime.webm Ricardo Milos</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+
+    </div>
+</main>
+
+<footer class="page-footer">
+
+</footer>
+
+<script src="js/slider.js"></script>
+<script src="js/less.js"></script>
+</body>
+</html>
